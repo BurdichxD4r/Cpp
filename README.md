@@ -47,3 +47,75 @@ int main()
     return 0;
 }
 ```
+
+## Гернерация последовательности
+```python
+# Python
+for x in range(start, stop, step):
+    print(x)
+```
+```python
+# Python
+x = start
+while x < stop:
+    print(x)
+    x += step
+```
+```C++
+// C++
+#include <iostream>
+int main()
+{
+    using namespace std;
+    int start, stop, step;
+    x = start;
+    while (x < stop)
+    {
+        cout << x << '\n';
+        x += step
+    }
+    return 0;
+}
+```
+```C++
+// C++
+#include <iostream>
+int main()
+{
+    using namespace std;
+    int start, stop, step;
+    for (x = start; x < stop; x += step)
+    {
+        cout << x << '\n';
+    }
+    return 0;
+}
+```
+```C++
+// C++
+#include <iostream>
+int main()
+{
+    using namespace std;
+    int N, x;
+    cin >> N;
+    for (int i = 0; i < N; i++)
+    {
+        cin >> x;
+        if (x == 13 || x == 666)
+            continue;
+        cout << x * x << '\n';
+    }
+    return 0;
+}
+```
+
+## Однопроходные алгоритмы
+```mermaid
+graph TD;
+    Single - pass algorithms-->count;
+    Single - pass algorithms-->sum;
+    Single - pass algorithms-->product;
+    Single - pass algorithms-->max;
+    Single - pass algorithms-->min
+```
