@@ -119,3 +119,25 @@ graph TD;
     Single-pass_algorithms-->max;
     Single-pass_algorithms-->min
 ```
+```C++
+// C++
+#include <iostream>
+int main()
+{
+    using namespace std;
+    int N, x, n, s, p, m;
+    n = s = 0; p = 1; m = // min(x) - 1 || flag
+    cin >> N;
+    for (int i = 0; i < N; i++)
+    {
+        cin >> x;
+        n += 1; s += x; p *= x;
+        if (x > m)
+        {
+            m = x;
+        }
+        cout << x * x << '\n';
+    }
+    return 0;
+}
+```
