@@ -113,9 +113,9 @@ int main()
 ## Однопроходные алгоритмы
 ```mermaid
 graph TD;
-    Single - pass algorithms-->count;
-    Single - pass algorithms-->sum;
-    Single - pass algorithms-->product;
-    Single - pass algorithms-->max;
-    Single - pass algorithms-->min
+    Single-pass_algorithms-->count;
+    Single-pass_algorithms-->sum;
+    Single-pass_algorithms-->product;
+    Single-pass_algorithms-->max;
+    Single-pass_algorithms-->min
 ```
